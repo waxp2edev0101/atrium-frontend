@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist/assets/**/*.
+dist-ssr
+*.local
+dist
+.env
+yarn.lock
+package-lock.json

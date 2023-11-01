@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #E90026 !important;
+}
+
+#root {
+  /* height: 100%;
+  width: 100%; */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Polar Press';
+  src: url('//db.onlinewebfonts.com/t/2df7f821fe46d9fecd6fd1165684cbd4.eot');
+  src: url('//db.onlinewebfonts.com/t/2df7f821fe46d9fecd6fd1165684cbd4.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/2df7f821fe46d9fecd6fd1165684cbd4.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/2df7f821fe46d9fecd6fd1165684cbd4.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/2df7f821fe46d9fecd6fd1165684cbd4.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/2df7f821fe46d9fecd6fd1165684cbd4.svg#Polar Press')
+      format('svg');
+}

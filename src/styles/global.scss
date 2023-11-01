@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#phaser-container {
+  canvas {
+    display: block;
+  }
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 160px);
+  grid-gap: 5px;
+  grid-auto-rows: 160px;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  max-height: calc(100% - 100px);
+  overflow-y: auto;
+}
+
+.video-grid video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px groove rgb(229, 251, 255);
+}
+
+.button-grid {
+  width: 160px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+* {
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: #eee;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    // background: rgba(#333, 0.2);
+    background: #A8A8A8;
+    // border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: rgba(#333, 0.2);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    transition: background 0.1s;
+    background: rgba(#eee, 0.8);
+    // border-radius: 3px;
+  }
+}
+
+// html, body {
+//   // display: flex;
+//   // width: 100%;
+//   // height: 100%;
+//   // justify-content: stretch;
+
+//   position: absolute;
+//   top: 0px;
+//   left: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   min-height: 100% !important;
+// }
+// #root {
+//   height: 100%;
+//   width: 100%;
+//   display: flex;
+// }
+.MuiContainer-root {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0px !important;
+  height: 100%;
+}
+h1,
+p,
+a {
+  // color: $color-light-50;
+  text-decoration: none;
+}
+
+.MuiInputBase-input {
+  width: 100% !important;
+}
+button.Mui-selected[role='tab'] {
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+// div[role="tablist"] > button:first-child {
+//   padding-left: 0px;
+// }
+.MuiTabs-indicator-crgwgg {
+  display: none;
+}
+
+.slick-active {
+  padding: 24px;
+}
+.slick-current {
+  padding: 12px;
+  // border: 1px solid red;
+  // background: #B8B8B8;
+  // background: #4A4A4A;
+  // background: #EDEDED;
+  background: #747474;
+  border-radius: 20px;
+}

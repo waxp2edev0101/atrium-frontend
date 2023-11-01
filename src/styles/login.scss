@@ -1,0 +1,13 @@
+.login {
+  background-image: url('../assets/images/login-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+
+  // backdrop-filter: blur(10px);
+  // background-
+  filter: blur(8px);
+  -webkit-filter: blur(32px);
+  backdrop-filter: opacity(20%);
+}
